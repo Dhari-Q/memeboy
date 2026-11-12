@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memeboy"
+version = "0.1.0"
+description = "An always-on memecoin research & paper-trading agent you can actually audit. Stdlib-only watchdogs, honest edge-check, zero wallet access."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Dhari" }]
+keywords = ["crypto", "memecoin", "paper-trading", "agent", "mcp", "solana", "research"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+
+[project.scripts]
+memeboy = "memeboy.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Dhari-Q/memeboy"
+
+[tool.setuptools.packages.find]
+where = ["src"]

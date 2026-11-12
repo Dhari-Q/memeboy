@@ -11,7 +11,7 @@ Paper money only. No wallet. No keys. No live order path — structurally: none 
 pip install memeboy && memeboy init && memeboy run-all && memeboy status
 ```
 
-![cockpit](docs/cockpit.gif)
+![cockpit](docs/cockpit.png)
 
 ## What it actually is
 
